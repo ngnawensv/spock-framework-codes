@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="polygon.ExempleSpec" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-01-16T04:58:01" hostname="LAPTOP-NGNAWEN" time="0.295">
+  <properties/>
+  <testcase name="should be able to mock concrete class" classname="polygon.ExempleSpec" time="0.295"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

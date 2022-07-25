@@ -1,0 +1,22 @@
+plugins {
+    id 'groovy'
+}
+
+group 'cm.belrose'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.spockframework:spock-core:2.0-groovy-3.0'
+    testImplementation 'org.codehaus.groovy:groovy-all:3.0.8'
+    //Resoleved exception of mocking class 
+    testImplementation 'cglib:cglib-nodep:3.3.0'
+    implementation 'net.bytebuddy:byte-buddy:1.12.6'
+}
+
+test {
+    useJUnitPlatform()
+}
